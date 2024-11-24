@@ -1,6 +1,4 @@
-
 <!DOCTYPE html>
-
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -32,12 +30,27 @@
             });
         });
       }
-  </script>
+    </script>
+    <style>
+      .center-container {
+        display: flex;
+        justify-content: center; /* Centers horizontally */
+        align-items: center;    /* Centers vertically */
+        height: 100vh;          /* Full viewport height */
+        margin: 0;              /* Removes default margin */
+      }
+
+      h1 {
+        margin: 0; /* Optional: Remove default margin */
+        font-size: 48px;
+      }
+    </style>
   </head>
   <body>
     <main>
-      <h1>NO</h1>
-
+      <div class="center-container">
+        <h1>NO</h1>
+      </div>
     </main>
   </body>
 </html>
